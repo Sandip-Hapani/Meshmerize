@@ -17,7 +17,7 @@ Used Tech Stack
 
 API Documentation
 -----------------------------------
-    ``https://documenter.getpostman.com/view/25458535/2s946h9t2m``
+    https://documenter.getpostman.com/view/25458535/2s946h9t2m
 
 
 Installation
@@ -30,7 +30,7 @@ Install the all dependecies from the requirments.txt in the virtual environment:
         >>> .\venv\Scripts\activate # To activate the Virtual environment (in windows)
 
 
-    - After that simply install all the dependent packages::
+- After that simply install all the dependent packages::
 
         >>> pip install -r requirments.txt
 
