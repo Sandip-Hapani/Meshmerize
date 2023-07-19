@@ -48,7 +48,8 @@ Now, just simply hit the ``http://127.0.0.1:8000/``. You'll redirected to the Ho
 
 NOTE:
 --------------------------------------
-    - I haven't used any authentication, but as you mentioned in the task, I had to use API key (static). So, I have fixed a key same for all users, which only needed when some changes occured into the database. For example: ``/api/add-device`` and ``/api/delete-device/<str:pk>``
+
+I haven't used any authentication, but as you mentioned in the task, I had to use API key (static). So, I have fixed a key same for all users, which only needed when some changes occured into the database. For example: ``/api/add-device`` and ``/api/delete-device/<str:pk>``
 
 Future Updates
 -----------------------------------
