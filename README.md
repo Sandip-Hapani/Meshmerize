@@ -17,7 +17,7 @@ Used Tech Stack
 
 API Documentation
 -----------------------------------
-    https://documenter.getpostman.com/view/25458535/2s946h9t2m
+    ``https://documenter.getpostman.com/view/25458535/2s946h9t2m``
 
 
 Installation
@@ -30,7 +30,7 @@ Install the all dependecies from the requirments.txt in the virtual environment:
         >>> .\venv\Scripts\activate # To activate the Virtual environment (in windows)
 
 
-- After that simply install all the dependent packages::
+    - After that simply install all the dependent packages::
 
         >>> pip install -r requirments.txt
 
@@ -48,8 +48,7 @@ Now, just simply hit the ``http://127.0.0.1:8000/``. You'll redirected to the Ho
 
 NOTE:
 --------------------------------------
-
-I haven't used any authentication, but as you mentioned in the task, I had to use API key (static). So, I have fixed a key same for all users, which only needed when some changes occured into the database. For example: ``/api/add-device`` and ``/api/delete-device/<str:pk>``
+    - I haven't used any authentication, but as you mentioned in the task, I had to use API key (static). So, I have fixed a key same for all users, which only needed when some changes occured into the database. For example: ``/api/add-device`` and ``/api/delete-device/<str:pk>``
 
 Future Updates
 -----------------------------------
